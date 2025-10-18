@@ -1,0 +1,56 @@
+/* 🌾 Project Samarth – Smart Minimal UI Styling */
+
+body {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2e7d32;
+  text-align: center;
+  font-weight: 600;
+}
+
+textarea, input {
+  border-radius: 8px;
+  border: 1px solid #070707;
+  padding: 10px;
+  width: 100%;
+  background-color: #fff; /* changed to white */
+  color: #000; /* text color black */
+}
+
+button, .stButton>button {
+  background-color: #4caf50 !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .stButton>button:hover {
+  background-color: #2e7d32 !important;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #050505;
+  margin: 20px 0;
+}
+
+.stTextArea textarea {
+  border: 1px solid #ccc !important;
+  border-radius: 8px !important;
+  background-color: #fff !important;
+  color: #000 !important; /* black text color inside text area */
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  font-size: 13px;
+  margin-top: 20px;
+}
